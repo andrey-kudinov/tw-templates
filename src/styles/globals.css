@@ -6,6 +6,7 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --tw-bg-opacity: 1;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,10 +19,98 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+.text-primary {
+  color: #4285f4 !important;
+}
+
+a.text-primary:focus,
+a.text-primary:hover {
+  color: #1266f1 !important;
+}
+
+.bg-primary {
+  background-color: #4285f4 !important;
+}
+
+a.bg-primary:focus,
+a.bg-primary:hover,
+button.bg-primary:focus,
+button.bg-primary:hover {
+  background-color: #1266f1 !important;
+}
+
+.bg-primary-100 {
+  background-color: rgb(227 235 247 / var(--tw-bg-opacity));
+}
+
+.bg-primary-200 {
+  background-color: rgb(199 215 240 / var(--tw-bg-opacity));
+}
+
+.bg-primary-300 {
+
+  background-color: rgb(171 194 232 / var(--tw-bg-opacity));
+}
+
+.bg-primary-400 {
+  background-color: rgb(143 174 224 / var(--tw-bg-opacity));
+}
+
+.bg-primary-50 {
+  background-color: rgb(241 245 251 / var(--tw-bg-opacity));
+}
+
+.bg-primary-500 {
+  background-color: rgb(101 144 213 / var(--tw-bg-opacity));
+}
+
+.bg-primary-600 {
+  background-color: rgb(48 97 175 / var(--tw-bg-opacity));
+}
+
+.bg-primary-700 {
+  background-color: rgb(40 81 146 / var(--tw-bg-opacity));
+}
+
+.bg-primary-800 {
+  background-color: rgb(32 64 117 / var(--tw-bg-opacity));
+}
+
+.bg-primary-900 {
+  background-color: rgb(24 48 88 / var(--tw-bg-opacity));
+}
+
+.border-neutral-100 {
+  border-color: rgb(243, 244, 246);
+}
+
+.border-neutral-200 {
+  border-color: rgb(229, 231, 235);
+}
+
+.border-neutral-400 {
+  border-color: rgb(156, 163, 175);
+}
+
+.border-neutral-500 {
+  border-color: rgb(107, 114, 128);
+}
+
+.border-neutral-600 {
+  border-color: rgb(75, 85, 99);
+}
+
+.border-neutral-700 {
+  border-color: rgb(55, 65, 81);
+}
+
+.border-neutral-800 {
+  border-color: rgb(31, 41, 55);
+}
+
+.border-neutral-900 {
+  border-color: rgb(17, 24, 39);
 }
