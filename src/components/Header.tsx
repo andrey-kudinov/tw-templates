@@ -9,7 +9,7 @@ export const Header = () => (
 
     <header className='z-10 relative mx-auto max-w-6xl px-6 py-8 flex justify-between items-center'>
       <a href='#' className='text-xl tracking-wider'>
-        fullscreen
+        Polina Popova
       </a>
 
       <ul className='hidden md:flex uppercase text-sm text-gray-500'>

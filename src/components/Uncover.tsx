@@ -175,7 +175,7 @@ export const Uncover = () => (
     </div>
 
     <div className='bg-gray-900 w-full py-20 px-24 text-center text-gray-100'>
-      <p>&copy; Copyright 2019 | Built by Digizu</p>
+      <p>&copy; Copyright 2023 | Polina Popova</p>
     </div>
   </>
 );
