@@ -5,9 +5,9 @@ export const Uncover = () => (
     <div className='w-full h-screen relative p-16'>
       <header className='relative z-20 w-full flex justify-between items-center h-20'>
         <a href='#' className='text-3xl text-gray-100 leading-tight'>
-          Un-
+          Polina
           <br />
-          cover
+          Popova
         </a>
 
         <ul className='flex text-sm lowercase italic'>
